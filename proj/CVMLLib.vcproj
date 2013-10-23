@@ -117,7 +117,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\include;..\include\libsvm;..\include\kmlocal"
+				AdditionalIncludeDirectories="..\include;..\include\libsvm;..\include\kmlocal;..\include\librf"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;CVML_EXPORTS"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -167,6 +167,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy /y ..\bin64\CVMLLib.dll  ..\unittest\bin64"
 			/>
 		</Configuration>
 		<Configuration
@@ -291,6 +292,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\include\cvmlrandomforest.h"
+				>
+			</File>
+			<File
 				RelativePath="..\include\svmclassifier.h"
 				>
 			</File>
@@ -300,20 +305,46 @@
 			</File>
 		</Filter>
 		<Filter
-			Name="Resource Files"
-			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
-			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
-			>
-		</Filter>
-		<Filter
-			Name="libsvm"
+			Name="librf"
 			>
 			<File
-				RelativePath="..\include\libsvm\svm.cpp"
+				RelativePath="..\include\librf\Forest.h"
 				>
 			</File>
 			<File
-				RelativePath="..\include\libsvm\svm.h"
+				RelativePath="..\include\librf\ForestTrainer.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\Interfaces.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\Node.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\ParallelForestTrainer.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\ProgressStream.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\Random.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\Sherwood.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\TrainingParameters.h"
+				>
+			</File>
+			<File
+				RelativePath="..\include\librf\Tree.h"
 				>
 			</File>
 		</Filter>
@@ -398,6 +429,18 @@
 			</File>
 			<File
 				RelativePath="..\include\kmlocal\KMterm.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="libsvm"
+			>
+			<File
+				RelativePath="..\include\libsvm\svm.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\include\libsvm\svm.h"
 				>
 			</File>
 		</Filter>

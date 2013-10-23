@@ -15,6 +15,11 @@
   the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
   PURPOSE.  See the above copyright notices for more information.
 
+
+
+
+
+
 =========================================================================*/
 
 
@@ -43,12 +48,14 @@
 
 
 //////////////// CVML Version Info///////////////
+
 #define CVML_MAJOR_VERSION    1
 #define CVML_MINOR_VERSION    0
 #define CVML_SUBMINOR_VERSION 0
 #define CVMLAUX_STR_EXP(__A)  #__A
 #define CVMLAUX_STR(__A)      CVMLAUX_STR_EXP(__A)
 #define CVML_VERSION          CVMLAUX_STR(CVML_MAJOR_VERSION) "." CVMLAUX_STR(CVML_MINOR_VERSION) "." CVMLAUX_STR(CVML_SUBMINOR_VERSION)
+
 ////////////////////////////////////////////////
 ////////////////////////////////////////////////
 

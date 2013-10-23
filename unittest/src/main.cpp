@@ -1,7 +1,7 @@
 
 
 
-#include "cvmllib.h"
+#include "..\..\include\cvmllib.h"
 
 using namespace cvml;
 
@@ -46,6 +46,23 @@ int svmTest(const char* train_file_name, const char* saved_model_file_name)
 
 int main(int argc, char **argv)
 {
+
+
+	printf("CVML_VERSION is %s\n",CVML_VERSION);
+	//
+	cvml::CRandomForest * pNode= new  cvml::CRandomForest(2);
+
+	///*if(pNode->bIsLeaf_)
+	//	printf("IsLeaf_ \n" );
+	//else
+	//	printf("NotIsLeaf_ \n");*/
+
+	if(pNode) delete pNode;
+
+
+
+
+	
 	int dim=3;
 	int k=100;
 	int numofSamples=40;

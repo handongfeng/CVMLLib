@@ -16,6 +16,7 @@ NOTE: the current version only support window platform and we tested the code in
 #include "svmclassifier.h"
 #include "cvmlkmeans.h"
 
+#include "cvmlrandomforest.h"
 
 
 #include "classTest.h"

@@ -7,6 +7,7 @@
 #include "cvmldef.h"
 #include "svmclassifierbase.h"
 #include "libsvm/svm.h"
+
 #include <vector>
 
 namespace cvml{
