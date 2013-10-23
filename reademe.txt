@@ -1,0 +1,24 @@
+
+CVMLL: Computer VIsion and Machine Learning Library
+Some common functions in the CVML field
+
+//////////////////////////////////////////////////////
+Author Dongfeng Han
+Email: handongfeng@gmail.com
+
+$Log$
+2013-10-23, first version
+
+
+///////////////////////////////////////////////////////
+current include 
+SVM
+Linear classifier
+//////////////////////////////////////////////////////
+
+plese see each header file for algorithm descriptions.
+
+
+
+
+

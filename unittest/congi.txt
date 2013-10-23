@@ -1,0 +1,6 @@
+..\..\..\ITK\lib64;..\..\..\IPF\IPFDLL_proj\bin64;..\bin64;..\..\..\boost\vc90lib64;..\..\..\ANN\lib64;..\..\..\Standalone\HDFCOMMON\bin64;..\..\bin64
+
+
+
+..\..\..\ITK\include;..\..\..\ITK\include\Algorithms;..\..\..\ITK\include\BasicFilters;..\..\..\ITK\include\Common;..\..\..\ITK\include\Numerics;..\..\..\ITK\include\IO;..\..\..\ITK\include\Numerics\FEM;..\..\..\ITK\include\Numerics\Statistics;..\..\..\ITK\include\SpatialObject;..\..\..\ITK\include\MetaIO;..\..\..\ITK\include\Utilities;..\..\..\ITK\include\Utilities\vxl\vcl;..\..\..\ITK\include\Utilities\vxl\core;..\..\..\IPF\include;..\..\..\IPF\include\math;..\include;..\..\..\boost;..\..\..\ANN\include;..\..\..\\Standalone\HDFCOMMON\include;..\..\include
+

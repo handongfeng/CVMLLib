@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unittest", "unittest.vcproj", "{EC244510-87F1-4050-BBC7-C782D2BB5216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Debug|Smartphone 2003 (ARMV4) = Debug|Smartphone 2003 (ARMV4)
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+		Release|Smartphone 2003 (ARMV4) = Release|Smartphone 2003 (ARMV4)
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		test|Pocket PC 2003 (ARMV4) = test|Pocket PC 2003 (ARMV4)
+		test|Smartphone 2003 (ARMV4) = test|Smartphone 2003 (ARMV4)
+		test|Win32 = test|Win32
+		test|x64 = test|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Smartphone 2003 (ARMV4).ActiveCfg = Debug|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Smartphone 2003 (ARMV4).Build.0 = Debug|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Smartphone 2003 (ARMV4).Deploy.0 = Debug|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|Win32.Build.0 = Debug|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|x64.ActiveCfg = Debug|x64
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Debug|x64.Build.0 = Debug|x64
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Smartphone 2003 (ARMV4).ActiveCfg = Release|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Smartphone 2003 (ARMV4).Build.0 = Release|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Smartphone 2003 (ARMV4).Deploy.0 = Release|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Win32.ActiveCfg = Release|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|Win32.Build.0 = Release|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|x64.ActiveCfg = Release|x64
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.Release|x64.Build.0 = Release|x64
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Pocket PC 2003 (ARMV4).ActiveCfg = test|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Pocket PC 2003 (ARMV4).Build.0 = test|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Pocket PC 2003 (ARMV4).Deploy.0 = test|Pocket PC 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Smartphone 2003 (ARMV4).ActiveCfg = test|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Smartphone 2003 (ARMV4).Build.0 = test|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Smartphone 2003 (ARMV4).Deploy.0 = test|Smartphone 2003 (ARMV4)
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Win32.ActiveCfg = test|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|Win32.Build.0 = test|Win32
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|x64.ActiveCfg = test|x64
+		{EC244510-87F1-4050-BBC7-C782D2BB5216}.test|x64.Build.0 = test|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
