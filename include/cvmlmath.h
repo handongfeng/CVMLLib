@@ -1,6 +1,27 @@
+/*=========================================================================
+
+  Program:   Computer Vision and Machine Learning Library
+  Module:    $RCSfile: cvmlmath.h $
+  Language:  C++
+  Date:      $Date: 2013-10-22 00:00:10 $
+  Version:   $Revision: 1.00 $
+
+  Copyright (c) Dongfeng Han. All rights reserved.
+
+  If you want to use this code, please request from  Dongfeng Han  a copy
+
+  This software is distributed WITHOUT ANY WARRANTY; without even 
+  the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+  PURPOSE.  See the above copyright notices for more information.
+
+  Usage:
+  define some commonly used math functions
+  NOTE: the current version only support window platform and we tested the code in win7 with VS 2008
+=========================================================================*/
+
+
 #ifndef __CVML__MATH__H
 #define __CVML__MATH__H
-
 
 
 #include "stdarg.h"
